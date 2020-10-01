@@ -13,11 +13,11 @@
               </div>
           </div>
           <div>
-            <form action="">
-              <input type="text" placeholder="Name" class="w-full bg-transparent border-gray-400 mb-8">
-              <input type="email" placeholder="Email" class="w-full bg-transparent border-gray-400 mb-8">
-              <textarea rows="5" placeholder="Message" class="w-full bg-transparent border-gray-400 mb-8 resize-none"></textarea>
-              <button class="px-4 py-2 w-full bg-white text-black">Send Message</button>
+            <form action="https://usebasin.com/f/a90a4d26ae95" method="POST">
+              <input type="text" name="name" placeholder="Name" class="w-full bg-transparent border-gray-400 mb-8">
+              <input type="email" name="email" placeholder="Email" class="w-full bg-transparent border-gray-400 mb-8">
+              <textarea name="meassage" rows="5" placeholder="Message" class="w-full bg-transparent border-gray-400 mb-8 resize-none"></textarea>
+              <button class="px-4 py-2 w-full bg-white text-black" type="submit">Send Message</button>
             </form>
           </div>
         </div>
