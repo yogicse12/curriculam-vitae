@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="contact pt-20">
+    <div class="contact">
       <div class="container mx-auto px-48">
         <div class="grid gap-16 grid-cols-2">
           <div>
@@ -35,6 +35,9 @@ export default {
 </script>
 
 <style>
+.contact {
+  padding: 200px 0 100px 0;
+}
 form input {
   border: 1px solid #444;
   height: 45px;

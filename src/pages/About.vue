@@ -18,7 +18,7 @@
               <div class="grid gap-16 grid-cols-2">
                 <div>
                   <p class="text-gray-600 font-mono leading-8"><span class="text-white">Name: </span>Yogendra Yadav</p>
-                  <p class="text-gray-600 font-mono leading-8"><span class="text-white">DOB: </span>15 December, 1984</p>
+                  <p class="text-gray-600 font-mono leading-8"><span class="text-white">Age: </span>35 Years</p>
                   <p class="text-gray-600 font-mono leading-8"><span class="text-white">Address: </span>Bangalore</p>
                 </div>
                 <div>
@@ -48,10 +48,6 @@
           <p class="text-lg text-gray-600 font-mono">2001</p>
         </div>
         <div class="divider"></div>
-        <div class="footer">
-          <h1 class="text-center text-5xl pb-4 font-serif antialiase text-yellow-500 font-bold">yogicse12@gmail.com</h1>
-          <h4 class="text-center font-mono text-gray-500 leading-8 text-lg">Muthayal Nagar, Bangalore <br>Karnataka, 560054</h4>
-        </div>
       </div>
     </div>
     <!-- <h1>About us</h1>
@@ -69,7 +65,7 @@ export default {
 
 <style>
   .about-me {
-    padding: 100px 0;
+    padding-top: 200px;
   }
   .about-me .divider {
     border-color: transparent;
