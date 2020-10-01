@@ -22,8 +22,8 @@
                   <p class="text-gray-600 font-mono leading-8"><span class="text-white">Address: </span>Bangalore</p>
                 </div>
                 <div>
-                  <p class="text-gray-600 font-mono leading-8"><span class="text-white">Phone: </span> +91 99010 65075</p>
-                  <p class="text-gray-600 font-mono leading-8"><span class="text-white">Email: </span>yogicse12@gmail.com</p>
+                  <p class="text-gray-600 font-mono leading-8"><span class="text-white">Phone: </span><a href="tel:9901065075">(+91) 99010 65075</a></p>
+                  <p class="text-gray-600 font-mono leading-8"><span class="text-white">Email: </span><a href="mailto:yogicse12@gmail.com">yogicse12@gmail.com</a></p>
                 </div>
               </div>
             </div>
@@ -33,19 +33,19 @@
         <!-- what I do -->
         <h2 class="text-4xl tracking-wide pb-10 font-serif text-blue-500 font-black">Education</h2>
         <div class="pb-8">
-          <h3 class="text-2xl pb-2 font-sans">Biju Patnaik University of Technology (BPUT)</h3>
-          <h5 class="text-lg text-gray-600 font-mono">Bachelor of Technology, Computer Science & Engineering</h5>
-          <p class="text-lg text-gray-600 font-mono">2005 - 2009</p>
+          <h3 class="text-2xl pb-2 font-sans">Bachelor of Technology, Computer Science & Engineering</h3>
+          <h5 class="text-lg text-gray-600 font-mono">Seemanta Engineering College, Affiliated to Biju Patnaik University Of Technology</h5>
+          <p class="text-lg text-gray-600 font-mono">Passed in August 2009, CGPA – 7.03</p>
         </div>
         <div class="pb-8">
-          <h3 class="text-2xl pb-2 font-sans">Pitt's Modern School</h3>
-          <h5 class="text-lg text-gray-600 font-mono">10 + 2 (C.B.S.E Board)</h5>
-          <p class="text-lg text-gray-600 font-mono">2001 - 2003</p>
+          <h3 class="text-2xl pb-2 font-sans">Higher Secondary Certificate</h3>
+          <h5 class="text-lg text-gray-600 font-mono">Pitt’s Modern School, Affiliated to CBSE</h5>
+          <p class="text-lg text-gray-600 font-mono">Passed in May 2003, Percentage – 70.8%</p>
         </div>
         <div>
-          <h3 class="text-2xl pb-2 font-sans">Pitt's Modern School</h3>
-          <h5 class="text-lg text-gray-600 font-mono">10 (C.B.S.E Board)</h5>
-          <p class="text-lg text-gray-600 font-mono">2001</p>
+          <h3 class="text-2xl pb-2 font-sans">Secondary Certificate</h3>
+          <h5 class="text-lg text-gray-600 font-mono">Pitt’s Modern School, Affiliated to CBSE</h5>
+          <p class="text-lg text-gray-600 font-mono">Passed in May 2001, Percentage - 77.2</p>
         </div>
         <div class="divider"></div>
       </div>

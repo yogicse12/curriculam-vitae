@@ -11,12 +11,12 @@
             <div class="col-span-1">
               <h1 class="text-2xl pb-6 text-green-700 font-mono">Let's work together</h1>
               <p class="font-mono text-gray-600 pb-2">I'm available at</p>
-              <p class="font-mono text-red-800 pb-2">yogicse12@gmail.com</p>
-              <p class="font-mono text text-gray-600 tracking-wider pb-6">(+91) 99010 65075</p>
+              <p class="font-mono text-red-800 pb-2"><a href="mailto:yogicse12@gmail.com">yogicse12@gmail.com</a></p>
+              <p class="font-mono text text-gray-600 tracking-wider pb-6"><a href="tel:9901065075">(+91) 99010 65075</a></p>
               <div class="social-links">
-                <a href="" class="pr-8 text-gray-500">Linked In</a>
-                <a href="" class="pr-8 text-gray-500">Facebook</a>
-                <a href="" class="text-gray-500">Twitter</a>
+                <a href="https://www.linkedin.com/in/yogendra-yadav-07b33b19/" target="_blank"  class="pr-8 text-gray-500">Linked In</a>
+                <a href="https://www.facebook.com/yogendra.yadav.142240" target="_blank" class="pr-8 text-gray-500">Facebook</a>
+                <a href="https://twitter.com/yogendrayadav" target="_blank" class="text-gray-500">Twitter</a>
               </div>
             </div>
           </div>
