@@ -45,7 +45,7 @@
         <div>
           <h3 class="text-2xl pb-2 font-sans">Secondary Certificate</h3>
           <h5 class="text-lg text-gray-600 font-mono">Pitt’s Modern School, Affiliated to CBSE</h5>
-          <p class="text-lg text-gray-600 font-mono">Passed in May 2001, Percentage - 77.2</p>
+          <p class="text-lg text-gray-600 font-mono">Passed in May 2001, Percentage - 77.2%</p>
         </div>
         <div class="divider"></div>
       </div>
