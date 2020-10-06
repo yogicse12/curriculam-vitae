@@ -1,6 +1,10 @@
 <template>
   <layout>
-      <div>Resume</div>
+      <div class="resume">
+        <div class="container mx-auto px-40">
+          Resume
+        </div>
+      </div>
   </layout>
 </template>
 
