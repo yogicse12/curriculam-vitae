@@ -5,7 +5,7 @@
           <div class="flex items-center grid gap-8 grid-cols-3 w-full">
             <div class="col-span-2">
               <h1 class="text-6xl pb-4 font-serif antialiased">Yogendra Yadav</h1>
-              <p class="pb-8 text-gray-600 font-mono">A Front-end developer based in Bangalore.</p>
+              <p class="pb-8 text-gray-600 font-mono">A Full Stack Web Developer and Software Engineer based in Bangalore.</p>
               <button class="px-4 py-2 bg-white text-black" @click="goToResume">Get Resume</button>
             </div>
             <div class="col-span-1">
