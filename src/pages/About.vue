@@ -12,7 +12,7 @@
           </div>
           <div class="col-span-2">
             <h2 class="text-4xl pb-6 font-serif text-red-500 font-black">Biography</h2>
-            <p class="font-mono tracking-wide leading-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur architecto perferendis molestiae praesentium quos natus doloremque obcaecati dolorem, molestias nam nisi vel non porro minima dolorum nulla blanditiis provident accusamus.</p>
+            <p class="font-mono tracking-wide leading-8">I'm a Full Stack Web Developer and Software Engineer with over 9 years of experience. I am from Bangalore. I graduated with my degree in Computer Science 11 years ago. I like working with new people. New people new experiences.</p>
             <div class="pt-8">
               <h3 class="text-xl pb-6 text-green-700 font-mono font-semibold">Personal Info</h3>
               <div class="grid gap-16 grid-cols-2">
