@@ -28,7 +28,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Yogendra Yadav'
+    title: 'Home'
   },
   methods: {
     goToResume() {

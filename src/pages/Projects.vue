@@ -10,7 +10,9 @@
 
 <script>
 export default {
-
+  metaInfo: {
+    title: 'Projects'
+  }
 }
 </script>
 
