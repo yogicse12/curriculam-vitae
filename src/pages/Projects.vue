@@ -1,6 +1,10 @@
 <template>
   <layout>
-      <div>Project</div>
+      <div class="resume">
+        <div class="container mx-auto px-40">
+          <h1>Projects</h1>
+        </div>
+      </div>
   </layout>
 </template>
 
