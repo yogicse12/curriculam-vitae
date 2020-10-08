@@ -30,7 +30,6 @@
           </div>
         </div>
         <div class="divider"></div>
-        <!-- what I do -->
         <h2 class="text-4xl tracking-wide pb-10 font-serif text-blue-500 font-black">Education</h2>
         <div class="pb-8">
           <h3 class="text-2xl pb-2 font-sans">Bachelor of Technology, Computer Science & Engineering</h3>
@@ -46,6 +45,30 @@
           <h3 class="text-2xl pb-2 font-sans">Secondary Certificate</h3>
           <h5 class="text-lg text-gray-600 font-mono">Pitt’s Modern School, Affiliated to CBSE</h5>
           <p class="text-lg text-gray-600 font-mono">Passed in May 2001, Percentage - 77.2%</p>
+        </div>
+        <div class="divider"></div>
+        <h2 class="text-4xl tracking-wide pb-10 font-serif text-yellow-500 font-black">Interests</h2>
+        <div class="grid gap-8 grid-cols-5">
+          <div class="box">
+            <div class="icon-music mb-3"></div>
+            <h3 class="font-mono">Music</h3>
+          </div>
+          <div class="box">
+            <div class="icon-gaming mb-3"></div>
+            <h3 class="font-mono">Gaming</h3>
+          </div>
+          <div class="box">
+            <div class="icon-map mb-3"></div>
+            <h3 class="font-mono">Travel</h3>
+          </div>
+          <div class="box">
+            <div class="icon-smile mb-3"></div>
+            <h3 class="font-mono">Social Work</h3>
+          </div>
+          <div class="box">
+            <div class="icon-sunrise mb-3"></div>
+            <h3 class="font-mono">Yoga</h3>
+          </div>
         </div>
         <div class="divider"></div>
       </div>
@@ -82,5 +105,38 @@ export default {
     background-image: url('../assets/images/wavy.png');
     background-size: 110px;
     opacity: .15;
+  }
+  .box {
+    text-align: center;
+    border: 0.1px solid #222;
+    height: 150px;
+    padding: 32px 8px;
+    font-size: 18px;
+    margin-top: 30px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    color: #999;
+    cursor: pointer;
+  }
+  .box:hover {
+    color: #fff;
+  }
+  .box .icon-music::before {
+    content: url('~@/assets/images/music.svg');
+  }
+  .box .icon-gaming::before {
+    content: url('~@/assets/images/airplay.svg');
+  }
+  .box .icon-map::before {
+    content: url('~@/assets/images/map.svg');
+  }
+  .box .icon-smile::before {
+    content: url('~@/assets/images/smile.svg');
+  }
+  .box .icon-sunrise::before {
+    content: url('~@/assets/images/sunrise.svg');
   }
 </style>
