@@ -13,9 +13,12 @@ module.exports = {
   ],
   chainWebpack: config => {
     config.module
-      .rule('postcss-loader')
-      .test(/\.css$/)
-      .use(["tailwindcss", "autoprefixer"])
-      .loader('postcss-loader')
+      .rule('css') // or sass, scss, less, postcss, stylus
+      .oneOf('normal') // or module
+        .use('postcss-loader')
+          .tap(options => {
+            options.plugins.push(tailwindcss('./tailwind.js'))
+            return options
+          })
   }
 }
