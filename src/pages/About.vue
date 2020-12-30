@@ -12,13 +12,13 @@
           </div>
           <div class="col-span-2">
             <h2 class="text-4xl pb-6 font-serif text-red-500 font-black">Biography</h2>
-            <p class="font-mono tracking-wide leading-8">I'm a Full Stack Web Developer and Software Engineer with over 9 years of experience. I am from Bangalore. I graduated with my degree in Computer Science 11 years ago. I like working with new people. New people new experiences.</p>
+            <p class="font-mono tracking-wide leading-8">I'm a Full Stack Web Developer and Software Engineer with over 10+ years of experience. I am from Bangalore. I graduated with my degree in Computer Science 11 years ago. I like working with new people. New people new experiences.</p>
             <div class="pt-8">
               <h3 class="text-xl pb-6 text-green-700 font-mono font-semibold">Personal Info</h3>
               <div class="grid gap-16 grid-cols-2">
                 <div>
                   <p class="text-gray-600 font-mono leading-8"><span class="text-white">Name: </span>Yogendra Yadav</p>
-                  <p class="text-gray-600 font-mono leading-8"><span class="text-white">Age: </span>35 Years</p>
+                  <p class="text-gray-600 font-mono leading-8"><span class="text-white">Age: </span>36 Years</p>
                   <p class="text-gray-600 font-mono leading-8"><span class="text-white">Address: </span>Bangalore</p>
                 </div>
                 <div>
@@ -32,19 +32,19 @@
         <div class="divider"></div>
         <h2 class="text-4xl tracking-wide pb-10 font-serif text-blue-500 font-black">Education</h2>
         <div class="pb-8">
-          <h3 class="text-2xl pb-2 font-sans">Bachelor of Technology, Computer Science & Engineering</h3>
-          <h5 class="text-lg text-gray-600 font-mono">Seemanta Engineering College, Affiliated to Biju Patnaik University Of Technology</h5>
-          <p class="text-lg text-gray-600 font-mono">Passed in August 2009, CGPA – 7.03</p>
+          <h3 class="text-2xl pb-2 font-sans">Bachelor of Technology: Computer Science and Engineering</h3>
+          <h5 class="text-lg text-gray-600 font-mono">Seemanta Engineering College, Affiliated to Biju Patnaik University Of Technology,Odisha</h5>
+          <p class="text-lg text-gray-600 font-mono">Graduated in August 2009 | CGPA - 7.03</p>
         </div>
         <div class="pb-8">
-          <h3 class="text-2xl pb-2 font-sans">Higher Secondary Certificate</h3>
+          <h3 class="text-2xl pb-2 font-sans">Higher Secondary Certificate (CBSE)</h3>
           <h5 class="text-lg text-gray-600 font-mono">Pitt’s Modern School, Affiliated to CBSE</h5>
-          <p class="text-lg text-gray-600 font-mono">Passed in May 2003, Percentage – 70.8%</p>
+          <p class="text-lg text-gray-600 font-mono">Passed in May 2003 | Percentage – 70.8%</p>
         </div>
         <div>
-          <h3 class="text-2xl pb-2 font-sans">Secondary Certificate</h3>
+          <h3 class="text-2xl pb-2 font-sans">Secondary Certificate (CBSE)</h3>
           <h5 class="text-lg text-gray-600 font-mono">Pitt’s Modern School, Affiliated to CBSE</h5>
-          <p class="text-lg text-gray-600 font-mono">Passed in May 2001, Percentage - 77.2%</p>
+          <p class="text-lg text-gray-600 font-mono">Passed in May 2001 | Percentage - 77.2%</p>
         </div>
         <div class="divider"></div>
         <h2 class="text-4xl tracking-wide pb-10 font-serif text-yellow-500 font-black">Interests</h2>

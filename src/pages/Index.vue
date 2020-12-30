@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     goToResume() {
-      this.$router.push({path:"/resume/"})
+      window.open("./yogendra_yadav_resume.pdf","_blank")
     }
   }
 }
