@@ -8,17 +8,17 @@ module.exports = {
   siteName: 'Yogendra Yadav',
   plugins: [
     {
-      use: "gridsome-plugin-tailwindcss"
+      use: "gridsome-plugin-tailwindcss",
+      /**
+      * These are the default options.
+
+      options: {
+        tailwindConfig: './tailwind.config.js',
+        presetEnvConfig: {},
+        shouldImport: false,
+        shouldTimeTravel: false
+      }
+      */
     }
-  ],
-  chainWebpack: config => {
-    config.module
-      .rule('css') // or sass, scss, less, postcss, stylus
-      .oneOf('normal') // or module
-        .use('postcss-loader')
-          .tap(options => {
-            options.plugins.push(tailwindcss('./tailwind.js'))
-            return options
-          })
-  }
+  ]
 }
