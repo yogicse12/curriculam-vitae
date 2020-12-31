@@ -19,7 +19,7 @@
     <slot/>
     <div class="footer" v-if="$route.fullPath !== '/'">
       <h1 class="text-center text-5xl pb-4 font-serif antialiase text-yellow-500 font-bold">yogicse12@gmail.com</h1>
-      <h4 class="text-center font-mono text-gray-500 leading-8 text-lg">Muthayal Nagar, Bangalore <br>Karnataka, 560054</h4>
+      <h4 class="text-center font-mono text-gray-500 leading-8 text-lg">Bangalore, Karnataka, 560054</h4>
     </div>
   </div>
 </template>

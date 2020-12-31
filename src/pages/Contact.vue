@@ -8,7 +8,7 @@
             <p class="text-lg text-gray-600 font-mono leading-8 pb-8">Duis aute irure dolor in reprehenderit in voluptate veldolore eu fugiat nulla pariatur. Excepteur sint occae cupidatat non proident, sunt in culpa qui officia.</p>
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/yogendra-yadav-07b33b19/" target="_blank" class="pr-8 text-gray-500">Linked In</a>
-                <a href="https://www.facebook.com/yogendra.yadav.142240" target="_blank" class="pr-8 text-gray-500">Facebook</a>
+                <a href="https://github.com/yogicse12" target="_blank" class="pr-8 text-gray-500">Github</a>
                 <a href="https://twitter.com/yogendrayadav" target="_blank" class="text-gray-500">Twitter</a>
               </div>
           </div>

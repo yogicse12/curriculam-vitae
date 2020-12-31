@@ -15,7 +15,7 @@
               <p class="font-mono text text-gray-600 tracking-wider pb-6"><a href="tel:9901065075">(+91) 99010 65075</a></p>
               <div class="social-links">
                 <a href="https://www.linkedin.com/in/yogendra-yadav-07b33b19/" target="_blank"  class="pr-8 text-gray-500">Linked In</a>
-                <a href="https://www.facebook.com/yogendra.yadav.142240" target="_blank" class="pr-8 text-gray-500">Facebook</a>
+                <a href="https://github.com/yogicse12" target="_blank" class="pr-8 text-gray-500">Github</a>
                 <a href="https://twitter.com/yogendrayadav" target="_blank" class="text-gray-500">Twitter</a>
               </div>
             </div>
