@@ -1,14 +1,14 @@
 <template>
   <Layout>
-    <div class="main-section">
-      <div class="container mx-auto h-full flex px-24">
-          <div class="flex items-center grid gap-8 grid-cols-3 w-full">
-            <div class="col-span-2">
+    <div class="main-section mt-24 md:mt-0">
+      <div class="px-4 container mx-auto h-1/2 lg:h-full flex lg:px-24">
+          <div class="flex items-center grid gap-8 lg:grid-cols-3 w-full">
+            <div class="lg:col-span-2">
               <h1 class="text-6xl pb-4 font-serif antialiased">Yogendra Yadav</h1>
               <p class="pb-8 text-gray-600 font-mono">A Full Stack Web Developer and Software Engineer based in Bangalore.</p>
               <button class="px-4 py-2 bg-white text-black" @click="goToResume">Get Resume</button>
             </div>
-            <div class="col-span-1">
+            <div class="lg:col-span-1">
               <h1 class="text-2xl pb-6 text-green-700 font-mono">Let's work together</h1>
               <p class="font-mono text-gray-600 pb-2">I'm available at</p>
               <p class="font-mono text-red-800 pb-2"><a href="mailto:yogicse12@gmail.com">yogicse12@gmail.com</a></p>
@@ -44,5 +44,11 @@ export default {
   padding-top: 72px;
   width: 100%;
   height: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .main-section {
+    text-align: center;
+    height: auto;
+  }
 }
 </style>
