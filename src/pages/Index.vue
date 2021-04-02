@@ -4,7 +4,7 @@
       <div class="px-4 container mx-auto h-1/2 lg:h-full flex lg:px-24">
           <div class="flex items-center grid gap-8 lg:grid-cols-3 w-full">
             <div class="lg:col-span-2">
-              <h1 class="text-6xl pb-4 font-serif antialiased">Yogendra Yadav</h1>
+              <h1 class="text-6xl pb-4 font-serif antialiased leading-normal">Yogendra Yadav</h1>
               <p class="pb-8 text-gray-600 font-mono">A Full Stack Web Developer and Software Engineer based in Bangalore.</p>
               <button class="px-4 py-2 bg-white text-black" @click="goToResume">Get Resume</button>
             </div>
@@ -45,10 +45,11 @@ export default {
   width: 100%;
   height: 100%;
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 767px) {
   .main-section {
     text-align: center;
     height: auto;
+    padding-top: 48px;
   }
 }
 </style>
