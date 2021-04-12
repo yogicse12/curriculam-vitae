@@ -1,7 +1,7 @@
 <template>
   <Layout>
       <div class="project">
-        <div class="container mx-auto px-40">
+        <div class="container mx-auto px-6 md:px-40">
           <div class="projects">
             <h2 class="text-4xl pb-16 font-serif text-red-500 font-black">Projects</h2>
             <div class="project1">

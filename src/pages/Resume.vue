@@ -1,7 +1,7 @@
 <template>
   <Layout>
       <div class="resume">
-        <div class="container mx-auto px-40">
+        <div class="container mx-auto px-4 mdpx-40">
           <h2 class="text-4xl pb-16 font-serif text-red-500 font-black">Profile</h2>
           <div class="0bjective">
             <h3 class="text-3xl pb-8 font-sans">Objective</h3>

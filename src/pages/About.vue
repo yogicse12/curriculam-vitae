@@ -1,21 +1,21 @@
 <template>
   <Layout>
     <div class="about-me">
-      <div class="container mx-auto px-40">
+      <div class="container mx-auto px-4 md:px-40">
         <!-- Biography -->
-        <div class="grid gap-16 grid-cols-3">
+        <div class="grid gap-8 md:gap-16 grid-cols-1 md:grid-cols-3">
           <div class="col-span-1">
             <g-image src="~/assets/images/about.jpg" class="rounded-full"/>
             <div class="flex justify-center pt-8 font-serif">
               <h3 class="text-2xl">Yogendra Yadav</h3>
             </div>
           </div>
-          <div class="col-span-2">
+          <div class="col-span-2 text-center md:text-left">
             <h2 class="text-4xl pb-6 font-serif text-red-500 font-black">Biography</h2>
             <p class="font-mono tracking-wide leading-8">I'm a Full Stack Web Developer and Software Engineer with over 10+ years of experience. I am from Bangalore. I graduated with my degree in Computer Science 11 years ago. I like working with new people. New people new experiences.</p>
             <div class="pt-8">
               <h3 class="text-xl pb-6 text-green-700 font-mono font-semibold">Personal Info</h3>
-              <div class="grid gap-16 grid-cols-2">
+              <div class="grid gap-8 md:gap-16 grid-cols-1 md:grid-cols-2">
                 <div>
                   <p class="text-gray-600 font-mono leading-8"><span class="text-white">Name: </span>Yogendra Yadav</p>
                   <p class="text-gray-600 font-mono leading-8"><span class="text-white">Age: </span>36 Years</p>
@@ -48,7 +48,7 @@
         </div>
         <div class="divider"></div>
         <h2 class="text-4xl tracking-wide pb-10 font-serif text-yellow-500 font-black">Interests</h2>
-        <div class="grid gap-8 grid-cols-5">
+        <div class="grid gap-8 grid-cols-2 md:grid-cols-5">
           <div class="box">
             <div class="icon-music mb-3"></div>
             <h3 class="font-mono">Music</h3>
@@ -87,6 +87,8 @@ export default {
 <style>
   .about-me {
     padding-top: 200px;
+    width: 100%;
+    max-width: 100%;
   }
   .about-me .divider {
     border-color: transparent;

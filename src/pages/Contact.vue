@@ -1,8 +1,8 @@
 <template>
   <Layout>
     <div class="contact">
-      <div class="container mx-auto px-48">
-        <div class="grid gap-16 grid-cols-2">
+      <div class="container mx-auto px-6 md:px-48">
+        <div class="grid gap-16 grid-cols-1 md:grid-cols-2">
           <div>
             <h2 class="text-5xl pb-6 text-green-500 font-serif font-semi-bold">Let's work together</h2>
             <p class="text-lg text-gray-600 font-mono leading-8 pb-8">Duis aute irure dolor in reprehenderit in voluptate veldolore eu fugiat nulla pariatur. Excepteur sint occae cupidatat non proident, sunt in culpa qui officia.</p>
