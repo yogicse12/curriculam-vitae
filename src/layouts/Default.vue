@@ -78,7 +78,7 @@ header {
 }
 .menu img {
     width: 28px;
-    opacity: 60%;
+    opacity: 0.6 !important;
 }
 .menu-mobile {
   padding: 0 24px 8px;
