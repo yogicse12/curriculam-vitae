@@ -34,7 +34,7 @@ jobs:
         with: 
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.SSHKEY }}
+          key: ${{ secrets.SSH_KEY }}
           script: |
             mkdir 
             cd test
