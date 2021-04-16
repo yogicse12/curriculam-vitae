@@ -29,4 +29,6 @@ jobs:
           
           port: ${{secrets.PORT}}
           script: |
-            whoami
+            mkdir test
+            cd test
+            git clone https://github.com/yogicse12/cv.git
