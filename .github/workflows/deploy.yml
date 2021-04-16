@@ -22,14 +22,11 @@ jobs:
     steps:
       - name: Executing remote ssh command
         uses: appleboy/ssh-action@v0.1.4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          HOST: ${{ secrets.HOST }}
         with: 
           host: ${{secrets.HOST}}
+          key: ${{secrets.SSH_KEY}}
           username: ${{secrets.USERNAME}}
-          password: ${{secrets.PASSWORD}}
+          
           port: ${{secrets.PORT}}
           script: |
-            cd test
-            touch "README.md"
+            whoami
